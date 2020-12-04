@@ -1,0 +1,73 @@
+.brand-logo:hover {
+    color: black !important;
+}
+
+.caption > h2 span {
+    font-style: oblique;
+}
+
+a:hover {
+    color:#FBD28B !important;
+    /* background: white !important; */
+    
+}
+.nav-wrapper  a:active {
+    color: #FBD28B !important;
+
+}
+
+
+h2 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+    font-weight: bold !important;
+    font-style: oblique !important;
+    font-size: large !important;
+
+}
+
+h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+    font-weight: bold !important;
+    font-style: oblique !important;
+    font-size: xx-large !important;
+
+}
+
+
+.btn, .btn-large, .btn-small {
+    background: #FBD28B !important;
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background: white !important;
+    color: black;
+}
+
+.section-about p {
+    text-align: justify !important;
+}
+
+.card-panel:hover{
+    box-shadow: dimgrey;
+}
+
+.card-panel > a{
+    color: dimgray;
+}
+
+.section-contact .card-panel {
+    background: #FBD28B;
+}
+
+.material-icons {
+    color: #FBD28B;
+}
+
+.section-about > p {
+    text-align: center !important;
+}
+
+.fa-2x{
+    margin: 5px 5px;    
+}
+
