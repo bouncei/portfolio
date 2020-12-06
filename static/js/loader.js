@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('.sidenav').sidenav();    // initializing a sidenav
+    $('.parallax').parallax();
     $('.materialboxed').materialbox();
     $('.fixed-action-btn').floatingActionButton();
     $('.slider').slider({       // initiaizing a slider
@@ -18,5 +19,6 @@ $(document).ready(function () {
         },
       });
     $('.scrollspy').scrollSpy();
+    
     
 });

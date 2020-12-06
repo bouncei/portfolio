@@ -16,6 +16,8 @@ p{
 
 
 
+
+
 .material-icons {
     font-size: 16px;
     font-weight: 400;
@@ -38,13 +40,22 @@ p{
 
 a:hover, a:focus {
     color:#FBD28B !important;
-    background: white !important;
+    /* background: white !important; */
     
 }
 .nav-wrapper  a:active {
     color: #FBD28B !important;
 
 }
+
+.project-links > a{
+    color: black !important;
+}
+
+.project-links > a:hover {
+    color: #FBD28B !important;
+}
+
 
 
 h2 {
@@ -135,3 +146,18 @@ h1 {
 
 }
 
+.link .fa-github:hover {
+    color: #666 !important;
+}
+
+.link .fa-linkedin:hover {
+    color: rgb(52, 114, 206) !important;
+}
+
+.link .fa-twitter:hover {
+    color: cornflowerblue !important;
+}
+
+.link .fa-facebook:hover {
+    color: rgb(50, 23, 112) !important;
+}
