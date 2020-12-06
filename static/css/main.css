@@ -146,6 +146,10 @@ h1 {
 
 }
 
+.social-links a:hover{
+    color: inherit !important;
+}
+
 .link .fa-github:hover {
     color: #666 !important;
 }
