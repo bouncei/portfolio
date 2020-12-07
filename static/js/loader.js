@@ -1,15 +1,20 @@
 $(document).ready(function () {
     $('.sidenav').sidenav();    // initializing a sidenav
-    $('.parallax').parallax();
-    $('.materialboxed').materialbox();
-    $('.fixed-action-btn').floatingActionButton();
+
+    $('.parallax').parallax();   // initializing parallax
+    
+    $('.materialboxed').materialbox();  //initializing material boxed
+    
+    $('.fixed-action-btn').floatingActionButton();  //initializing action button
+    
     $('.slider').slider({       // initiaizing a slider
         indicators: false,
         height: 500,
         transition: 500,
         interval: 6000
     });      
-    $('input.autocomplete').autocomplete({    //initializong autocomplete
+    
+    $('input.autocomplete').autocomplete({    //initializing autocomplete
         data: {
           "@gmail": null,
           ".com": null,
@@ -18,7 +23,8 @@ $(document).ready(function () {
           
         },
       });
-    $('.scrollspy').scrollSpy();
+    
+      $('.scrollspy').scrollSpy();     //initializing a scroller
     
     
 });

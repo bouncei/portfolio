@@ -14,10 +14,6 @@ p{
     margin: 0px;
 }
 
-
-
-
-
 .material-icons {
     font-size: 16px;
     font-weight: 400;
@@ -30,9 +26,6 @@ p{
 .brand-logo:hover {
     color: black !important;
 }
-
-
-
 
 .caption > h2 span {
     font-style: oblique;
@@ -56,8 +49,6 @@ a:hover, a:focus {
     color: #FBD28B !important;
 }
 
-
-
 h2 {
     font-family: "Trebuchet MS", Helvetica, sans-serif !important;
     font-weight: bold !important;
@@ -73,7 +64,6 @@ h1 {
     font-size: xx-large !important;
 
 }
-
 
 .btn, .btn-large, .btn-small {
     background: #FBD28B !important;
@@ -132,11 +122,11 @@ h1 {
 
 }
 
-.nav-wrapper .page-scroll:hover {
+.page-scroll:hover {
     color: #FBD28B;
 }
 
-.nav-wrapper .page-scroll {
+.page-scroll {
     text-transform: uppercase;
     font-size: 16px;
     color: #8a8fa3;
@@ -165,3 +155,34 @@ h1 {
 .link .fa-facebook:hover {
     color: rgb(50, 23, 112) !important;
 }
+
+.little-info {
+    padding-top: 10%;
+    /* padding-bottom: 7%; */
+    font-size: larger !important;
+}
+
+/* .section-projects .container {
+    display: flex;
+}
+
+@media all and (max-width: 400px) {
+    /* .section-projects .container {
+        flex-wrap: wrap;
+    } */
+
+    /* .section-projects .container > div {
+        flex: 1 1 50%;
+    }
+} */
+
+/* .section-projects .container .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-projects .container .row > img {
+    width: 150px;
+    height: 100px;
+} */
