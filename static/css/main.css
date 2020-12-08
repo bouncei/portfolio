@@ -186,3 +186,22 @@ h1 {
     width: 150px;
     height: 100px;
 } */
+
+.skills__data {
+    display: flex;
+}
+
+/* .skills__html {
+    width: 80%;
+} */
+
+.skills__bar {
+    position: absolute;
+    bottom: -.75rem;
+    height: .25rem;
+    background-color: #FBD28B;
+}
+
+.section-projects {
+    text-transform: capitalize;
+}
