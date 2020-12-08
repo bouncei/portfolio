@@ -205,3 +205,8 @@ h1 {
 .section-projects {
     text-transform: capitalize;
 }
+
+/* .section-projects .container .row .col > img {
+    height: 661px !important;
+    width: 1365px !important;
+} */
