@@ -236,3 +236,9 @@ h1 {
     font-weight: lighter !important;
     color: rgb(36, 33, 33) !important;
 }
+
+
+.w3-round-xlarge {
+    background-color: #FBD28B !important;
+    /* border-radius: 20%; */
+}
