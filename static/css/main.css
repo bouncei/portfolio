@@ -1,14 +1,15 @@
-html {
+/* html {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     font-weight: normal;
-}
+} */
 
 body {
     font-size: 14px !important;
     font-weight: 400 !important;
-    font-family: "Source Sans Pro", sans-serif !important;
+    font-family: Segoe UI,Arial,sans-serif !important;
     color: #666 !important;
     line-height: 25px !important;
+    margin: 0 !important;
 }
 
 p{
@@ -233,12 +234,34 @@ h1 {
 } */
 
 .brand-logo {
-    font-weight: lighter !important;
     color: rgb(36, 33, 33) !important;
+    font-family: Segoe UI,Arial,sans-serif !important;
 }
 
 
 .w3-round-xlarge {
     background-color: #FBD28B !important;
-    /* border-radius: 20%; */
+    border-radius: 16px;
+}
+
+.mine {
+    font-style: oblique !important;
+    font-size: 24px !important;
+    font-weight: 300 !important;
+    font-family: Segoe UI,Arial,sans-serif !important;
+    
+}
+
+.w3-container, .w3-panel {
+    padding: 0.01em 16px;
+}
+
+.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+    color:white !important;
+    background-color: #f1f1f1 !important;
+    border-radius: 16px;
+}
+
+.section-resume .card-panel {
+    background-color: #FBD28B !important;
 }
