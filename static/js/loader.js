@@ -3,6 +3,8 @@ $(document).ready(function () {
 
     $('.parallax').parallax();   // initializing parallax
     
+
+
     $('.materialboxed').materialbox();  //initializing material boxed
     
     $('.fixed-action-btn').floatingActionButton();  //initializing action button
@@ -29,11 +31,4 @@ $(document).ready(function () {
     
 });
 
-const toTop = document.querySelector(".to-top");
-
-window.addEventListener("scroll", () => {
-  if (window.pageYOffset > 100) {
-    toTop.classList.add
-  }
-})
 

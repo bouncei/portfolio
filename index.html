@@ -25,12 +25,14 @@
       <title>Joshua Emmanuel Inyang</title>
     </head>
 
-    <body>
+    <body id="home">
 
     <div class="loader_bg">
         <div class="loader"></div>
 
     </div>
+
+    <div class="scrollTop"></div>
 
         
         <!-- Section Navbar -->
@@ -114,7 +116,7 @@
                       <div class="caption center-align">
                         <h5 class="light grey-text text-lighten-3 mine">Hey, I'm  </h5>
                         <h3 style="text-transform: uppercase; font-style: italic; font-family: Segoe UI,Arial,sans-serif;">Joshua Emmanuel Inyang</h3>
-                        <h5 class="light grey-text text-lighten-3 mine">Web Developer and Data Analyst</h5>
+                        <h5 class="light grey-text text-lighten-3 mine hide-on-small-only">Web Developer and Data Analyst</h5>
                         <br>    
                         
                         <a href="#about" class="btn black-text">Explore</a>
@@ -506,27 +508,38 @@
             </div>
         </section>
 
-        <!-- Section:Floating Action Button -->
-        <!-- <section class="section section-float">
-            
-            <div class="fixed-action-btn">
-                <a class="btn-floating btn-large red">
-                <i class="large material-icons black">keyboard_arrow_up</i>
-                </a>
-                <ul>
-                <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-                <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-                <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-                <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-                </ul>
-            </div>
+
+        <a href="#" id="scroll"><span></span></a>
+
+        <footer class="footer-area section-padding">
+            <div class="container">
+              <div class="row center">
+                
+                <div class="col s12 social-links ">
+                    <a href="https://github.com/bouncei" class="white-text link">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/joshua-inyang-2753841b7" class="white-text link">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
                     
-        </section> -->
+                    <a href="#" class="white-text link">
+                        <i class="fab fa-google fa-2x"></i>
+                    </a>
 
-        <a href="#" class="to-top">
-            <i class="fas fa-chevron-up"></i>
+                    <a href="https://twitter.com/InyangJoshua8" class="white-text link">
+                        <i class="fab fa-twitter fa-2x"></i>
+                    </a>
 
-        </a>
+
+                </div>
+
+                <p class="white-text">Copyright © 2020 All Right Reserved</p>
+       
+              
+            </div>
+        </footer>
 
 
         <!-- jquery -->
@@ -534,11 +547,15 @@
             <script>
                 setTimeout(function(){
                     $('.loader_bg').fadeToggle();
-                }, 2200)
+                }, 1800)
+                
             </script>
+
+        
 
       <!--JavaScript at end of body for optimized loading-->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
       <!-- Custom js -->
       <script src="static/js/loader.js"></script>
     </body>
