@@ -4,7 +4,7 @@
 } */
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 .loader_bg {
@@ -373,7 +373,8 @@ h1 {
     height: 50px;
     border-radius: 60px;
     text-indent: -9999px;
-    background-color: rgb(44, 41, 41);
+    background-color: #bea270;
+    transition: background-color .4s ease-out;
     text-decoration: none;
     display: block;
 
@@ -420,6 +421,16 @@ footer {
 }
 
 footer:hover {
-    background: #bea270;
-    transition: 0.4s;
+    background-color: #bea270;
+    /* transition: 0.4s; */
+    transition: background-color .4s ease-out;
+    
+}
+
+.section-resume .resume-specific:hover {
+    background-color: #fafafa !important;
+}
+
+.card-services:hover {
+    transform: scale(1.1);
 }
