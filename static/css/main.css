@@ -434,3 +434,7 @@ footer:hover {
 .card-services:hover {
     transform: scale(1.1);
 }
+
+.parallax-container {
+    isolation: isolate;
+}
