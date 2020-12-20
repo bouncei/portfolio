@@ -155,6 +155,7 @@ h1 {
 
 .section-contact .card-panel {
     background: #FBD28B;
+    isolation: isolate;
 }
 
 .material-icons {
@@ -301,6 +302,7 @@ h1 {
 .w3-round-xlarge {
     background-color: #FBD28B !important;
     border-radius: 16px;
+    isolation: isolate;
 }
 
 .mine {
@@ -364,7 +366,7 @@ h1 {
 
 } */
 
-#scroll {
+/* #scroll {
     position: fixed;
     right: 10px;
     bottom: 10px;
@@ -378,9 +380,9 @@ h1 {
     text-decoration: none;
     display: block;
 
-}
+} */
 
-#scroll span {
+/* #scroll span {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -411,13 +413,14 @@ h1 {
     z-index: 100000;
     visibility: hidden;
     opacity: 0;
-}
+} */
 
 
 footer {
     background-color: #eec988; 
     display: block; 
     padding: 90px;
+    isolation: isolate;
 }
 
 footer:hover {
@@ -436,5 +439,9 @@ footer:hover {
 }
 
 .parallax-container {
+    isolation: isolate;
+}
+
+i{
     isolation: isolate;
 }
