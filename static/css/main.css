@@ -68,7 +68,7 @@ body {
     line-height: 25px !important;
     margin: 0 !important;
     padding: 0 !important;
-    transition: 0.4s !important;
+    transition: background-color .6s ease-out !important;
 }
 
 p{
@@ -134,11 +134,14 @@ h1 {
 
 .btn, .btn-large, .btn-small {
     background: #FBD28B !important;
+    transition: background-color .4s ease-out;
 }
 
 .btn:hover, .btn-large:hover, .btn-small:hover {
     background: white !important;
     color: black;
+    font-weight: bolder !important;
+    
 }
 
 .section-about p {
@@ -444,4 +447,59 @@ footer:hover {
 
 i{
     isolation: isolate;
+}
+
+
+input:focus {
+    border-bottom: #FBD28B !important;
+    box-shadow: #FBD28B !important;
+}
+
+input:not([type]):focus:not([readonly]), input[type="text"]:not(.browser-default):focus:not([readonly]), input[type="password"]:not(.browser-default):focus:not([readonly]), input[type="email"]:not(.browser-default):focus:not([readonly]), input[type="url"]:not(.browser-default):focus:not([readonly]), input[type="time"]:not(.browser-default):focus:not([readonly]), input[type="date"]:not(.browser-default):focus:not([readonly]), input[type="datetime"]:not(.browser-default):focus:not([readonly]), input[type="datetime-local"]:not(.browser-default):focus:not([readonly]), input[type="tel"]:not(.browser-default):focus:not([readonly]), input[type="number"]:not(.browser-default):focus:not([readonly]), input[type="search"]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #FBD28B;
+    -webkit-box-shadow: 0 1px 0 0 #FBD28B;
+    box-shadow: 0 1px 0 0 #FBD28B;
+}
+
+.input-field i:focus{
+    color: #FBD28B !important;
+}
+
+.input-field .prefix {
+    color: #FBD28B !important;
+}
+
+
+.xx {
+    margin: 20px 20px !important;
+    transition: background-color .6s ease-out;
+}
+
+.xx:hover {
+    background: unset !important;
+    color: #FBD28B !important;
+    font-weight: bolder !important;
+}
+
+
+.project-links {
+    text-decoration: underline;
+    transition: background-color .6s ease-out !important;
+}
+
+.project-links:hover {
+    color: #FBD28B;
+    /* background: #FBD28B; */
+    isolation: isolate;
+}
+
+.project-links h2:hover {
+    color: #FBD28B !important;
+    transition: background-color .6s ease-out !important;
+    isolation: isolate;
+    
+}
+
+.nav-wrapper .main-brand-logo a:focus {
+    color: black !important;
 }
