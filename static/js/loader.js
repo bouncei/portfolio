@@ -22,6 +22,7 @@ $(document).ready(function () {
           ".com": null,
           "@icloud": null,
           "@yahoo": null,
+          "joshua": null,
           
         },
       });
