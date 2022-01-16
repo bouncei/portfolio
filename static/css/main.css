@@ -92,14 +92,13 @@ p {
   font-style: oblique;
 }
 
-a:hover,
-a:focus {
+a:hover {
   color: #fbd28b !important;
   /* background: white !important; */
 }
-.nav-wrapper a:active {
+/* .nav-wrapper a:active {
   color: #fbd28b !important;
-}
+} */
 
 .project-links > a {
   color: black !important;
